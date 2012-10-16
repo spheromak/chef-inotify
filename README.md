@@ -1,10 +1,10 @@
 # chef-inotify cookbook
-A Proof of concept cookbook that implents inotify awareness in chef file/template/cookbook_file resources
+A Proof of concept cookbook that implements inotify awareness in chef file/template/cookbook_file resources
 
 
 # Requirements
 * This was proofed chef-client version  _10.14.2_  I don't think it will work on anything prior
-* Client has to be linux (other os's have similar funcitonalty, but this proof is only for Inotify)
+* Client has to be linux (other os's have similar functionality, but this proof is only for Inotify)
 * Need to install the _rb-inotify_ gem on the client
 
 # Usage
@@ -17,8 +17,8 @@ default:  just makes sure the libs get loaded
 # Author
 
 Author:: Jesse Nelson (<spheromak@gmail.com>)
-# License 
-  
+# License
+
 Apache License, Version 2.0
 
 Licensed under the Apache License, Version 2.0 (the "License");
